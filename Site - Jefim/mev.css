@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+:root {
+    --cor1: #ffffff;
+    --cor2: #FFEA9E;
+    --cor3: #DB9941;
+    --cor4: #C27F20;
+    --cor5: #8F5400;
+}
+
+body {
+    margin: 0%;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+width: 100%;
+height: 4em;
+text-align: center;
+font-size: 14px;
+color: var(--cor1);
+display: flex;
+
+}
+
+.tipo {
+    background-color: var(--cor5);
+        height: 3em;
+        text-align: center;
+        color: white;
+        padding: 2px 0px 0px 0px;
+}
+
+h1 {
+    font-weight: normal;
+    color: var(--cor1);
+    background-color: var(--cor3);
+    width: 350px;
+    height: 60px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 40px;
+    margin: 10px auto auto auto;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+}
+
+.um {
+    background-color: #FFEA9E;
+    height: 27em ;
+    width: 300px;
+    margin-left: 20px;
+    padding: 0 20px 10px 20px;
+    border-radius: 13px;
+    margin-top: 10px;
+}
+
+.dois {
+    background-color: #FFEA9E;
+    height: 33em ;
+    width: 300px;
+    margin-left: 10px;
+    padding: 0 20px 10px 20px;
+    border-radius: 13px;
+    margin-top: 10px;
+}
+
+.tres {
+    background-color: #FFEA9E;
+    height: 22em ;
+    width: 300px;
+    margin-left: 10px;
+    padding: 0 20px 10px 20px;
+    border-radius: 13px;
+    margin: 10px;
+}
+
+.quatro {
+    background-color: #FFEA9E;
+    height: 38em ;
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0 20px 10px 20px;
+    border-radius: 13px;
+    margin-top: 10px;
+}
+
+.cinco {
+    background-color: #FFEA9E;
+    height: 33em ;
+    width: 300px;
+    margin-left: 60px;
+    padding: 0 20px 10px 20px;
+    border-radius: 13px;
+}
+
+.seis {
+    background-color: #FFEA9E;
+    height: 40em ;
+    width: 300px;
+    margin-left: 30px;
+    padding: 0 20px 10px 20px;
+    border-radius: 13px;
+    margin-top: 10px;
+}
+
+.sete {
+    background-color: #FFEA9E;
+    height: 43em ;
+    width: 300px;
+    margin-left: 60px;
+    padding: 0 20px 10px 20px;
+    border-radius: 13px;
+}
+
+.oito {
+    background-color: #FFEA9E;
+    height: 36em ;
+    width: 300px;
+    margin-left: 30px;
+    padding: 0 20px 10px 20px;
+    border-radius: 13px;
+    margin-top: 10px;
+}
+
+h3 {
+    font-family: 'Inknut Antiqua', serif;
+}
+
+h4 {
+    font-family: 'Inknut Antiqua', serif;
+    text-align: center;
+}
+
+.mito {
+    color: #ff0000;
+}
+
+.verdade {
+    color: #1aab2b;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
